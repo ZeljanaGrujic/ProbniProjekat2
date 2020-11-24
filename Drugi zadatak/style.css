@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: green;
+   }
+
+#wrap {
+    margin: auto;
+    width: 70%;
+    background: deepskyblue;
+}
+body ul li {
+    display: inline;
+    
+}
+ul{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    word-spacing: 50px;
+}
+.navbar {
+    background: deepskyblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.main{
+    position: relative;
+}
+
+#slika1{
+    height: 100%;
+    width: 100%;
+    border: solid 4px;
+}
+#slika2{
+   position: absolute;
+   right: 7px;
+    top: 7px;
+    width: 10%;
+}
+.main p{
+    color: white;
+    margin-bottom: 40px;
+}
+.main p:hover{
+    color:red;
+    font-style: italic;
+}
+

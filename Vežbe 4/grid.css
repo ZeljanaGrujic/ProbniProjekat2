@@ -1,0 +1,25 @@
+.roditelj div{
+    background-color: darkgrey;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    width: 30%;
+}
+.roditelj{
+    height: 95vh;
+   background-color: turquoise;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;/* fr je nesto slicno kao procenat ekrana koji zauzimaju deca*/
+   /* grid-template-columns: repeat(3,550px); napravice tri jednake kolone od po 550px*/
+/*centriranje elem po horizontali,kolone*/ justify-items: stretch;
+    /*pozicioniranje po vertikali,redovi*/ align-items: start;
+    /*odnosi se na ceo grid, ppo horizontalu*/ justify-content: center;
+    /*odnosi se na ceo grid, po vertikali*/ align-content: stretch;
+}
+#div1{
+    grid-column: 1/span2;
+    justify-self: stretch; /*ide levo desno*/
+    align-self: stretch; /*ide gore dole*/
+}
+
+

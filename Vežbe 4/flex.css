@@ -1,0 +1,40 @@
+.roditelj div{
+    background-color: darkgrey;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    width: 30%;
+}
+.roditelj {
+    height: 100vh; /*vh predstavlja procenat velicine prozora*/
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row(direction) wrap(wrap);*/
+    justify-content: flex-start; /*po horizontali, po sirini*/
+    align-items: center ;/* po vertikali, po visini*/
+   /*align-content: space-around;*//*pozicioniranje samih redova, raspored svih redova na papiru, posmatra redove sve kao celinu*/
+
+
+}
+#div1{
+    flex: 1;
+    order: 5;
+    align-self: stretch;
+    
+}
+#div2{
+    flex: 1;
+    align-self: flex-start;
+}
+#div3{
+    flex: 1;
+}
+#div4{
+    flex: 1;
+}
+#div5{
+    flex: 1;
+    order: 1;
+}
